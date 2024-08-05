@@ -1,0 +1,13 @@
+google-cloud-aiplatform==1.57.0
+google-cloud-logging==3.10.0
+google-cloud-secret-manager==2.20.0
+langchain==0.2.11
+langchain-community==0.2.10
+langchain-chroma==0.1.2
+langchain-google-vertexai==1.0.8
+Flask==2.2.2
+Flask-Cors==4.0.1
+Werkzeug==2.2.2
+neo4j==5.23.0
+neo4j-runway==0.8.1
+instructor==1.2.0

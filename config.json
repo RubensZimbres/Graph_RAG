@@ -1,0 +1,10 @@
+{"LOCATION": "us-central1",
+"PATH":"/app/tropical_diseases.pdf",
+"username": "neo4j",
+"database": "neo4j",
+"chunk_size":"2000", "overlap":"100","top_k":"1",
+"temperature":"0","max_tokens":"512",
+"data_path":"/app/Disease_symptom.csv",
+"csv_dir":"/app",
+"csv_name":"disease_prepared.csv"
+}
