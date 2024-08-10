@@ -18,7 +18,7 @@ KG.generate_knowledge_graph_llm(config=config)
 @app.route('/predict', methods=['POST'])
 def predict():
     while True:
-        """Use this question: 
+        """Try this question: 
         
         Patient Information:
         Jane Doe, a 58-year-old female, was admitted on June 15, 2024.
@@ -32,6 +32,8 @@ def predict():
         Physical Examination:
         Jane's temperature was 102.8°F, heart rate 110 bpm, blood pressure 100/70 mmHg, and respiratory rate 20 breaths 
         per minute. No petechiae or purpura were noted."""
+        
+        # Change question's input to get JSON data 
         
         question = input("Ask a question:")
         # Get RAG answer

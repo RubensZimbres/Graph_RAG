@@ -29,6 +29,3 @@ gcloud run deploy "$SERVICE_NAME" \
      --set-env-vars=GCP_PROJECT=$GCP_PROJECT,GCP_REGION=$GCP_REGION \
      --min-instances 1 --max-instances 5 --cpu 1 --memory 2048Mi --concurrency 10
 ```
-  
-<b>TO DO:</b>
-- add docstrings
