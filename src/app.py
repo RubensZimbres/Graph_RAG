@@ -15,7 +15,7 @@ KG=BuildKnowledgeGraph(config=config)
 KG.prepare_data()
 KG.generate_knowledge_graph_llm(config=config)
 
-@app.route('/predict', methods=['GET', 'POST'])
+@app.route('/predict', methods=['POST'])
 def predict():
     while True:
         """Use this question: 
